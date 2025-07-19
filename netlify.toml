@@ -34,7 +34,8 @@
   node_bundler = "esbuild"
 
 [[redirects]]
-  from = "/.netlify/functions/sms-webhook"
-  to   = "/.netlify/functions/sms-webhook"
+  from   = "/api/sms-webhook"
+  to     = "/.netlify/functions/sms-webhook"
   status = 200
   force  = true
+
